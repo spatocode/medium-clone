@@ -1,0 +1,15 @@
+#IDE
+/.vscode
+
+#Templates
+/app/templates
+
+#Virtual Environment
+/venv
+.flaskenv
+
+#Cache
+/__pycache__
+/app/__pycache__
+
+*mitcode.py
