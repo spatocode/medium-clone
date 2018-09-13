@@ -12,4 +12,5 @@
 /__pycache__
 /app/__pycache__
 
-*mitcode.py
+app.db
+mitcode.py
