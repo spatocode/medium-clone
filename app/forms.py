@@ -11,7 +11,7 @@ class LoginForm(FlaskForm):
 
 class RegistrationForm(FlaskForm):
     fullname = StringField('Username', validators=[DataRequired()])
-    avatar = FileField('Photo', validators=[DataRequired()])
+    photo = FileField('Photo', validators=[DataRequired()])
     about = TextAreaField('About', validators=[DataRequired()])
     birthdate = DateField('Date of birth', validators=[DataRequired()])
     username = StringField('Username', validators=[DataRequired()])
