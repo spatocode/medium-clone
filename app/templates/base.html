@@ -14,7 +14,7 @@
     <nav>
         <ul>
             <li><a href="{{ url_for('index') }}">Home</a></li>
-            <li><a href="{{ url_for('index') }}">Blog</a></li>
+            <li><a href="{{ url_for('explore') }}">Explore</a></li>
             <li><a href="{{ url_for('index') }}">About</a></li>
             {% if current_user.is_anonymous %}
             <li><a href="{{ url_for('login') }}">Login</a></li>
